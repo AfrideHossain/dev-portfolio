@@ -28,6 +28,7 @@
 }
 .section_title
 {
+    width: 100%;
     font-weight: 700;
     font-size: 35px;
     color: #181818;
@@ -43,11 +44,17 @@
     font-size: 20px;
     font-weight: 700;
     border-radius: 5px;
+    cursor: pointer;
+}
+
+section {
+    margin-top: 130px;
 }
 
 /* header and navigation styles */
 .header
 {
+    background-color: #FFF8F3;
     background-image: url("../images/header_bg.png"), url("../images/developer.png");
     background-repeat: no-repeat;
     background-position: bottom right, left;
@@ -56,7 +63,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 50px 230px;
+    padding: 50px 230px;
 }
 .nav_title
 {
@@ -109,8 +116,8 @@ main
 /* about tag styles */
 .about
 {
+    background: #FFF8F3;
     border-radius: 10px;
-    margin-top: 130px;
     padding: 130px 156px;
 
 }
@@ -150,10 +157,6 @@ main
 }
 
 /* what i do styles */
-.what-i-do
-{
-    margin-top: 130px;
-}
 .skill
 {
     background: #FFFFFF;
@@ -177,4 +180,102 @@ main
 {
     font-weight: 400;
     font-size: 16px;
+}
+
+/* resume section */
+/* .resume_section
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+} */
+.resume_content
+{
+    display: flex;
+    gap: 70px;
+}
+.resume_title
+{
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 30px;
+    color: #474747;
+}
+.resume
+{
+    margin-top: 30px;
+}
+.resume h4
+{
+    font-weight: 700;
+    font-size: 25px;    
+    color: #474747;
+}
+.resume h5
+{
+    font-weight: 600;
+    font-size: 20px;
+    color: #757575;
+}
+.resume p
+{
+    font-weight: 400;
+    font-size: 16px;
+    color: #757575;
+    margin: 20px 0;
+}
+.resume hr
+{
+    border: 1px solid #D1D1D1;
+}
+.resume_btn{
+    margin-top: 50px;
+    text-align: center;
+}
+
+/* contact styles */
+.contact
+{
+    display: flex;
+    justify-content: space-around;
+    gap: 100px;
+    background: #FFF8F3;
+    margin-top: 130px;
+    padding: 130px 230px;
+}
+.contact .section_title
+{
+    text-align: left;
+}
+.contact p
+{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #474747;
+    margin-bottom: 30px;
+}
+.contact a
+{
+    text-decoration: none;
+    margin-right: 24px;
+}
+/* .contact form
+{
+    display: flex;
+    flex-direction: column;
+} */
+.contact input[type="text"], input[type="email"], textarea
+{
+    width: 100%;
+    border: 0;
+    margin-bottom: 24px;
+    padding: 15px 30px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #757575;
+}
+form input
+{
+    height: 64px;
 }
