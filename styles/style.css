@@ -157,6 +157,12 @@ main
 }
 
 /* what i do styles */
+.what_i_do_desc
+{
+    font-size: 18px;
+    text-align: center;
+    margin: 50px 110px;
+}
 .skill
 {
     background: #FFFFFF;
